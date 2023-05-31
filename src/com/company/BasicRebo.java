@@ -1,11 +1,6 @@
 package com.company;
 
-import com.company.dp.entity.Category;
-import com.company.rebo.DbConnectionManger;
-
 import java.sql.*;
-import java.util.ArrayList;
-import java.util.List;
 
 public class BasicRebo {
     public int intsert(Object object) throws SQLException, ClassNotFoundException {
